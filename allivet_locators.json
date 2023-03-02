@@ -1,0 +1,24 @@
+{
+    "landingPage" : {
+        "logo" : ".logo_search_wrapper .logo",
+        "myAccountDropdown" : ".account-login #myaccount",
+        "myProfile" : "(//a[contains(text(), 'My Profile')])[1]",
+        "myOrders" : "(//a[contains(text(), 'My Orders')])[1]",
+        "myAutoship" : "(//a[contains(text(), 'My Autoship')])[1]",
+        "myRx" : "(//a[contains(text(), 'My Rx')])[1]",
+        "myPets" : "(//a[contains(text(), 'My Pets')])[1]",
+        "myVets" : "(//a[contains(text(), 'My Vets')])[1]",
+        "myRewards" : "(//a[contains(text(), 'My Rewards')])[1]",
+        "SignIn" : "(//a[contains(text(), 'Sign in')])[1]",
+        "shopByPet" : ".menu-container",
+        "shopByBrand" : ".brands-menu-container",
+        "shopByCondition" : ".condition-menu-container",
+        "quickReOrder" : ".menu-reorder"
+},
+
+"loginPage" : {
+    "signinEmail" : ".form-group #login-form-email",
+    "signinPassword" : ".form-group #login-form-password",
+    "loginBtn" : ".login .login-btn"
+}
+}
